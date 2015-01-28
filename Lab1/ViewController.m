@@ -12,7 +12,23 @@
 
 @end
 
-@implementation ViewController
+@implementation ViewController 
+
+- (IBAction)button1:(id)sender {
+    [_Message setText:@"hello!"];
+}
+
+- (IBAction)button2:(id)sender {
+    [_Message setText:@"hi!"];
+}
+
+- (IBAction)dismissKeyboard:(id)sender {
+    
+}
+
+- (IBAction)backgroundButtonDismissKeyboard:(id)sender {
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *Name;
+@property (weak, nonatomic) IBOutlet UILabel *Message;
+- (IBAction)button1:(id)sender;
+- (IBAction)button2:(id)sender;
+- (IBAction)dismissKeyboard:(id)sender;
+- (IBAction)backgroundButtonDismissKeyboard:(id)sender;
 
 @end
 
