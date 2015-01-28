@@ -12,28 +12,40 @@
 
 @end
 
-@implementation ViewController 
+@implementation ViewController {
+    NSString *name;
+}
 
 - (IBAction)button1:(id)sender {
-    if (_Name == NULL) {
+    if (name == NULL) {
         [_Message setText:@"put your name!"];
+    } else {
+        [_Message setText:[NSString stringWithFormat:@"hello, %@, you prefer Skiing!", name]];
     }
-    [_Message setText:@"hello!"];
 }
 
 - (IBAction)button2:(id)sender {
-    if (_Name == NULL) {
+    if (name == NULL) {
         [_Message setText:@"put your name!"];
+    } else {
+        [_Message setText:[NSString stringWithFormat:@"hi, %@, you prefer Snowboarding!", name]];
     }
-    [_Message setText:@"hi!"];
 }
 
-- (IBAction)dismissKeyboard:(id)sender {
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [self.view endEditing:YES];
+    [super touchesBegan:touches withEvent:event];
+}
+
+- (void)textFieldDidBeginEditing:(UITextField *)Name {
     
 }
 
-- (IBAction)backgroundButtonDismissKeyboard:(id)sender {
-    
+-(BOOL) textFieldShouldReturn: (UITextField *)Name {
+    name = _Name.text;
+    [Name resignFirstResponder];
+    [self.view endEditing:YES];
+    return YES;
 }
 
 - (void)viewDidLoad {
