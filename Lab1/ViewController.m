@@ -15,10 +15,16 @@
 @implementation ViewController 
 
 - (IBAction)button1:(id)sender {
+    if (_Name == NULL) {
+        [_Message setText:@"put your name!"];
+    }
     [_Message setText:@"hello!"];
 }
 
 - (IBAction)button2:(id)sender {
+    if (_Name == NULL) {
+        [_Message setText:@"put your name!"];
+    }
     [_Message setText:@"hi!"];
 }
 
