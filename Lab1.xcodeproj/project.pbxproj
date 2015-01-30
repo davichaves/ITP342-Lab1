@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93198E171A7ACB930084FF95 /* Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93198E161A7ACB930084FF95 /* Icon@3x.png */; };
 		937104951A703EB100DC2C54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 937104941A703EB100DC2C54 /* main.m */; };
 		937104981A703EB100DC2C54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 937104971A703EB100DC2C54 /* AppDelegate.m */; };
 		9371049B1A703EB100DC2C54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9371049A1A703EB100DC2C54 /* ViewController.m */; };
@@ -15,8 +16,12 @@
 		937104A31A703EB100DC2C54 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937104A11A703EB100DC2C54 /* LaunchScreen.xib */; };
 		937104AF1A703EB100DC2C54 /* Lab1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937104AE1A703EB100DC2C54 /* Lab1Tests.m */; };
 		9386878A1A76EA4800DE5115 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 938687891A76EA4800DE5115 /* Icon@2x.png */; };
-		93C316DE1A79864C00A403BF /* ski.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C316DC1A79864C00A403BF /* ski.png */; };
-		93C316DF1A79864C00A403BF /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C316DD1A79864C00A403BF /* snow.png */; };
+		93C1B0D41A7B05CB00E335B1 /* ski@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C1B0CE1A7B05CB00E335B1 /* ski@3x.png */; };
+		93C1B0D51A7B05CB00E335B1 /* ski@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C1B0CF1A7B05CB00E335B1 /* ski@2x.png */; };
+		93C1B0D61A7B05CB00E335B1 /* ski.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C1B0D01A7B05CB00E335B1 /* ski.png */; };
+		93C1B0D71A7B05CB00E335B1 /* snow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C1B0D11A7B05CB00E335B1 /* snow@3x.png */; };
+		93C1B0D81A7B05CB00E335B1 /* snow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C1B0D21A7B05CB00E335B1 /* snow@2x.png */; };
+		93C1B0D91A7B05CB00E335B1 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C1B0D31A7B05CB00E335B1 /* snow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93198E161A7ACB930084FF95 /* Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@3x.png"; sourceTree = "<group>"; };
 		9371048F1A703EB100DC2C54 /* Lab1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		937104931A703EB100DC2C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937104941A703EB100DC2C54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,8 +50,12 @@
 		937104AD1A703EB100DC2C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937104AE1A703EB100DC2C54 /* Lab1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab1Tests.m; sourceTree = "<group>"; };
 		938687891A76EA4800DE5115 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		93C316DC1A79864C00A403BF /* ski.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ski.png; sourceTree = "<group>"; };
-		93C316DD1A79864C00A403BF /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		93C1B0CE1A7B05CB00E335B1 /* ski@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ski@3x.png"; sourceTree = "<group>"; };
+		93C1B0CF1A7B05CB00E335B1 /* ski@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ski@2x.png"; sourceTree = "<group>"; };
+		93C1B0D01A7B05CB00E335B1 /* ski.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ski.png; sourceTree = "<group>"; };
+		93C1B0D11A7B05CB00E335B1 /* snow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow@3x.png"; sourceTree = "<group>"; };
+		93C1B0D21A7B05CB00E335B1 /* snow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow@2x.png"; sourceTree = "<group>"; };
+		93C1B0D31A7B05CB00E335B1 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +112,14 @@
 		937104921A703EB100DC2C54 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				93C316DC1A79864C00A403BF /* ski.png */,
-				93C316DD1A79864C00A403BF /* snow.png */,
+				93C1B0CE1A7B05CB00E335B1 /* ski@3x.png */,
+				93C1B0CF1A7B05CB00E335B1 /* ski@2x.png */,
+				93C1B0D01A7B05CB00E335B1 /* ski.png */,
+				93C1B0D11A7B05CB00E335B1 /* snow@3x.png */,
+				93C1B0D21A7B05CB00E335B1 /* snow@2x.png */,
+				93C1B0D31A7B05CB00E335B1 /* snow.png */,
 				938687891A76EA4800DE5115 /* Icon@2x.png */,
+				93198E161A7ACB930084FF95 /* Icon@3x.png */,
 				937104931A703EB100DC2C54 /* Info.plist */,
 				937104941A703EB100DC2C54 /* main.m */,
 			);
@@ -209,11 +224,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9371049E1A703EB100DC2C54 /* Main.storyboard in Resources */,
+				93C1B0D81A7B05CB00E335B1 /* snow@2x.png in Resources */,
+				93C1B0D61A7B05CB00E335B1 /* ski.png in Resources */,
 				9386878A1A76EA4800DE5115 /* Icon@2x.png in Resources */,
-				93C316DF1A79864C00A403BF /* snow.png in Resources */,
-				93C316DE1A79864C00A403BF /* ski.png in Resources */,
+				93C1B0D71A7B05CB00E335B1 /* snow@3x.png in Resources */,
+				93198E171A7ACB930084FF95 /* Icon@3x.png in Resources */,
+				93C1B0D91A7B05CB00E335B1 /* snow.png in Resources */,
+				93C1B0D41A7B05CB00E335B1 /* ski@3x.png in Resources */,
 				937104A31A703EB100DC2C54 /* LaunchScreen.xib in Resources */,
 				937104A01A703EB100DC2C54 /* Images.xcassets in Resources */,
+				93C1B0D51A7B05CB00E335B1 /* ski@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

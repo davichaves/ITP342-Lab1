@@ -26,7 +26,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYM-Xe-Ik5">
                                 <rect key="frame" x="110" y="182" width="100" height="100"/>
-                                <state key="normal" title="Button" image="ski.png">
+                                <state key="normal" backgroundImage="ski.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -35,7 +35,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Csr-lg-6yF">
                                 <rect key="frame" x="110" y="300" width="100" height="100"/>
-                                <state key="normal" title="Button" image="snow.png">
+                                <state key="normal" backgroundImage="snow.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -68,8 +68,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ski.png" width="250" height="250"/>
-        <image name="snow.png" width="250" height="250"/>
+        <image name="ski.png" width="50" height="50"/>
+        <image name="snow.png" width="50" height="50"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
